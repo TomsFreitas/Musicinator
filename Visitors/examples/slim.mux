@@ -1,7 +1,0 @@
-sequence rap1 = [C3 D#3 G3 G#3 C4{3} G#3 G3{1.5} R{.5} G#3 G3{.4} G#3{.4} G3{.4} F3{.5} G3{0.6} R{0.2} B3] +12 ;
-sequence rap2 = [C2{2}  D2 D#2 F2{3} F2  D#2{1.5} R{.5}F2 D#2{.4} D2{1.3}				R{0.8}  G2] +12;
-
-play rap1  on guitar;
-at 0 play rap2  on piano;
-at |rap1| play rap1 on guitar;
-at |rap1| play rap2 on piano;
